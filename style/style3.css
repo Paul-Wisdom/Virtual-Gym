@@ -1,0 +1,130 @@
+ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+li{
+    display: inline;
+    margin-right: 5%;
+    font-weight: bold;
+}
+li>a{
+    color:rgb(0,2,21);
+    font-weight: bold;
+    text-decoration: none;
+}
+li>a:hover{
+    color:black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+.name{
+    text-align: center;
+}
+.body{
+    width:90%;
+    border: 2px solid black;
+    margin: 10% auto 2% auto;
+    backdrop-filter:blur(4px);
+    border-radius: 10px;
+}
+input[id="name"]{
+    width:90%;
+    margin-bottom: 5%;
+}
+input[id="passwd"]{
+    width:90%;
+}
+.rem{
+    line-height: 1px;
+    font-size: smaller;
+}
+label{
+    display: block;
+}
+.sign{
+    line-height: 1px;
+    font-size: smaller;
+    margin-left: 1%;
+}
+body{
+    background-color:darkgray;
+    background-image: url("../images/images (29).jpeg");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height:100vh;
+    
+}
+input[type="submit"]
+{
+    width:30%;
+    margin: 2% auto 2% auto;
+    border-radius: 5px;
+    border-color: transparent;
+}
+input[type="submit"]:hover
+{
+    font-size: medium;
+    font-weight: bold;
+
+}
+.submit{
+    text-align: center;
+}
+.form{
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom:5%;
+}
+.overlay{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(25,25,25,0.6);
+    margin:0px;
+    padding: 0px;
+}
+.fgt>a{
+    text-decoration: none;
+    font-size: xx-small;
+}
+h3{
+    text-align: center;
+}
+.hide{
+    position: absolute;
+    right:10%;
+}
+.view{
+    position: absolute;
+    right:10%;
+    visibility:hidden;
+}
+@media screen and (min-width: 400px)
+{
+    .body{
+        width:80%;
+    }
+}
+@media screen and (min-width: 700px)
+{
+    input[id="name"]{
+        width:90%;
+        margin-bottom: 3%;
+    }
+    input[id="passwd"]{
+        width:90%;
+    }
+    .body{
+        margin-top: 2%;
+        width:25%;
+    }
+}
+@media screen and (min-height: 1000px)
+{
+    .body{
+        width:40%;
+    }
+}
